@@ -30,13 +30,13 @@ body {
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   width: 90%;
-  max-width: 320px;
+  max-width: 400px;
   text-align: center;
   box-shadow: -30px 10px 30px rgb(0, 0, 0);
 
 }
 
-.card h1, .card h4{
+.card h2, .card h4{
   margin-bottom: 20px;
   color: white;
   font-style: italic;
