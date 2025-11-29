@@ -21,6 +21,12 @@ function calculator()
         {
             result = num1/num2;
         }
+       else if(operator === '%')
+        {
+           result = 'Invalid choice';
+        }
+    else{
+        
         document.getElementById('result').textContent =`Result: ${result}`;
     
 }
