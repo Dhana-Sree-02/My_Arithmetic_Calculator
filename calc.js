@@ -23,9 +23,11 @@ function calculator()
         }
        else if(operator === '%')
         {
-           result = 'Invalid choice';
+           result = num1%num2;
         }
     else{
+         result = 'Invalid choice';
+    }
         
         document.getElementById('result').textContent =`Result: ${result}`;
     
